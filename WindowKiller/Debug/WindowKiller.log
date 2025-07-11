@@ -1,2 +1,118 @@
-﻿  UI.cpp
-  WindowKiller.vcxproj -> C:\Projects\Space-Game---BUas-Intake\WindowKiller\Debug\WindowKiller.exe
+﻿  Button.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(15,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244:             T=int
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:             T=int
+C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:         ]
+  CircleCollider.cpp
+  Collision.cpp
+  Game.cpp
+  Gun.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:             T=int
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         and
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:             T=int
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         and
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         ]
+  Bar.cpp
+  main.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(22,47): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(22,35): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(28,15): warning C4101: 'collision': unreferenced local variable
+  Mineral.cpp
+  Obstacle.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(5,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(22,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ObstaclePool.cpp
+  ObstacleSpawner.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(33,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(33,39): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(33,39): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(33,39): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(33,39): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(36,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(36,36): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(36,36): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(36,36): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(36,36): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(37,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(37,36): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(37,36): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(37,36): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(37,36): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(40,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(40,70): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(40,70): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(40,70): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(40,70): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(41,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(41,42): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(41,42): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(41,42): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(41,42): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(44,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(44,36): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(44,36): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(44,36): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(44,36): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:         ]
+  Particle.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(34,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(40,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(46,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(52,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ParticleSystem.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:         ]
+  Player.cpp
+  Rigidbody.cpp
+  ScoreSystem.cpp
+  Star.cpp
+  Starfield.cpp
+C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(39,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(46,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(48,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  UI.cpp
+  Generating Code...
+  WindowKiller.vcxproj -> C:\Projects\C++\BUas-Intake\Debug\WindowKiller.exe
