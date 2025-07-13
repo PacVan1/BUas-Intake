@@ -20,25 +20,25 @@ UI::UI(int score, int* state) :
     controls.setString("WASD to move - Mouse to aim - Collect Minerals!");
     gameBy.setString("By: Ayser Hartgring - 05/24");
 
-    startButton.SetPosition({ 810.0f, 680.0f });
-    restartButton.SetPosition({ 810.0f, 700.0f }); 
-    mainButton.SetPosition({ 810.0f, 590.0f }); 
-    quitButton.SetPosition({ 810.0f, 780.0f }); 
+    startButton.SetPosition({ 1130.0f, 900.0f });
+    restartButton.SetPosition({ 1130.0f, 1180.0f });
+    mainButton.SetPosition({ 1130.0f, 1080.0f });
+    quitButton.SetPosition({ 1130.0f, 1000.0f });
 
-    title.setPosition(Vector2f(610.0f, 300.0f));
+    title.setPosition(Vector2f(930.0f, 450.0f));
     title.setCharacterSize(80);
 
-    gameOver.setPosition(Vector2f(640.0f, 300.0f));
+    gameOver.setPosition(Vector2f(950.0f, 450.0f));
     gameOver.setCharacterSize(80);
     gameOver.setFillColor(Color::Red);
 
     minerals.setPosition(Vector2f(10.0f, 10.0f));
     minerals.setCharacterSize(24);
 
-    controls.setPosition(Vector2f(60.0f, 960.0f));
+    controls.setPosition(Vector2f(40.0f, 1460.0f));
     controls.setCharacterSize(18); 
 
-    gameBy.setPosition(Vector2f(60.0f, 1000.0f));
+    gameBy.setPosition(Vector2f(40.0f, 1540.0f));
     gameBy.setCharacterSize(18);
 }
 
