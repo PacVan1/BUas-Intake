@@ -2,7 +2,7 @@
 
 ## Description
 An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (numerus-fixus).<br>
-**Result**: I got in!
+**Result**: Accepted!
 
 ![Opening](examples/opening.png)
 ![Gameplay](examples/gameplay.png)
