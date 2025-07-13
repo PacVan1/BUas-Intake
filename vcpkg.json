@@ -1,0 +1,8 @@
+{
+  "name": "buas-intake",
+  "version-string": "1.0.0",
+  "builtin-baseline": "efcfaaf60d7ec57a159fc3110403d939bfb69729",
+  "dependencies": [
+      "sfml"
+  ]
+}

@@ -8,18 +8,26 @@
 #include <list>
 #include <vector>
 #include <iterator>
+#include <optional>
 
 using namespace std;
 using namespace sf;
 
-static const float VIEW_WIDTH = 512.0f;
-static const float VIEW_HEIGHT = 512.0f;
+static const float VIEW_WIDTH = 2560.0f;
+static const float VIEW_HEIGHT = 1600.0f;
 
 int main()
 {
-    ContextSettings settings;
-    settings.antialiasingLevel = 8;
-    RenderWindow window(VideoMode(VIEW_WIDTH, VIEW_HEIGHT), "Game", Style::Fullscreen, settings);
+    sf::ContextSettings settings;
+    settings.antiAliasingLevel = 8;
+
+    sf::RenderWindow window(
+        sf::VideoMode(Vector2u(VIEW_WIDTH, VIEW_HEIGHT)),
+        "Game",
+        sf::State::Fullscreen,
+        settings
+    );
+
 
     Game game;
 
@@ -30,28 +38,29 @@ int main()
     sf::Clock clock;
     float deltaTime = 0.0f;
     
-    while (window.isOpen())
-    {
-        deltaTime = clock.restart().asSeconds();
+    while (window.isOpen()) {
+        float deltaTime = clock.restart().asSeconds();
         window.setFramerateLimit(60);
 
-        Event event;
-        while (window.pollEvent(event))
-        {
-            switch (event.type) {
-            case Event::Closed: window.close(); break;
-            case Event::MouseButtonPressed: break;
+        while (const std::optional<sf::Event> event = window.pollEvent()) {
+            if (event->is<sf::Event::Closed>()) {
+                window.close();
+            }
+
+            if (event->is<sf::Event::MouseButtonPressed>()) {
+                // Handle mouse press if needed
             }
         }
 
-        if (Keyboard::isKeyPressed(Keyboard::Key::Escape)) {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Scancode::Escape)) {
             window.close();
         }
 
-        window.clear(Color(0, 0, 20, 255));
-        game.Update(window, deltaTime);  
+        window.clear(sf::Color(0, 0, 20, 255));
+        game.Update(window, deltaTime);
         window.display();
     }
+
 
     return 0;
 }

@@ -1,4 +1,104 @@
-﻿  Button.cpp
+﻿  Installing vcpkg dependencies to C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\
+  "C:\Projects\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x86-windows" --vcpkg-root "C:\Projects\vcpkg\\" "--x-manifest-root=C:\Projects\C++\BUas-Intake\\" "--x-install-root=C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\\" 
+  Detecting compiler hash for triplet x86-windows...
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x86/cl.exe
+  Detecting compiler hash for triplet x64-windows...
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+  The following packages will be built and installed:
+    * brotli:x86-windows@1.1.0#1
+    * bzip2[core,tool]:x86-windows@1.0.8#6
+    * egl-registry:x86-windows@2024-01-25
+    * freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3
+    * libflac[core,stack-protector]:x86-windows@1.5.0
+    * libogg:x86-windows@1.3.6
+    * libpng:x86-windows@1.6.48
+    * libvorbis:x86-windows@1.3.7#4
+    * miniaudio:x86-windows@0.11.22
+    * opengl:x86-windows@2022-12-04#3
+    * opengl-registry:x86-windows@2024-02-10#1
+      sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1
+    * stb:x86-windows@2024-07-29#1
+    * vcpkg-cmake:x64-windows@2024-04-23
+    * vcpkg-cmake-config:x64-windows@2024-05-23
+    * zlib:x86-windows@1.3.1
+  Additional packages (*) will be modified to complete this operation.
+  Restored 16 package(s) from C:\Users\ayser\AppData\Local\vcpkg\archives in 501 ms. Use --debug to see more details.
+  Installing 1/16 egl-registry:x86-windows@2024-01-25...
+  Elapsed time to handle egl-registry:x86-windows: 4.91 ms
+  egl-registry:x86-windows package ABI: f1bfcaa8559cda97fae446620da8b28c325f72e3d1aa170514a61ee3eee3ebf5
+  Installing 2/16 opengl-registry:x86-windows@2024-02-10#1...
+  Elapsed time to handle opengl-registry:x86-windows: 8.86 ms
+  opengl-registry:x86-windows package ABI: 942035da9bc45a43efb1727afff4049bf08b5f16d0cb190da93b706ae2717fff
+  Installing 3/16 opengl:x86-windows@2022-12-04#3...
+  Elapsed time to handle opengl:x86-windows: 5.5 ms
+  opengl:x86-windows package ABI: c761e8f664332f786993fc7a606d61032c02a26a07799c5a1529d5a30a3f26dd
+  Installing 4/16 stb:x86-windows@2024-07-29#1...
+  Elapsed time to handle stb:x86-windows: 5.62 ms
+  stb:x86-windows package ABI: 4c15b4fca5de7331e3df7b602f81640caf91cfa23734649abbc0e579617d88b0
+  Installing 5/16 vcpkg-cmake:x64-windows@2024-04-23...
+  Elapsed time to handle vcpkg-cmake:x64-windows: 3.54 ms
+  vcpkg-cmake:x64-windows package ABI: 14ff927fd435175fed30ea279dadd403f9409e29e28f2e4ede5f2128d491e00e
+  Installing 6/16 zlib:x86-windows@1.3.1...
+  Elapsed time to handle zlib:x86-windows: 5.01 ms
+  zlib:x86-windows package ABI: 98c1480cafeb2487ad9c557cc6aeac66ab003a8b6ddc41b29974183270aa4e07
+  Installing 7/16 vcpkg-cmake-config:x64-windows@2024-05-23...
+  Elapsed time to handle vcpkg-cmake-config:x64-windows: 3.16 ms
+  vcpkg-cmake-config:x64-windows package ABI: 42dd7ea24a96be6aecc757fc4fb3934eb715aa9cc64afb92d2a2e3d74862fbd9
+  Installing 8/16 libpng:x86-windows@1.6.48...
+  Elapsed time to handle libpng:x86-windows: 7.22 ms
+  libpng:x86-windows package ABI: 23b8917526ac206561f1515e8ad51933baea81c4deff29606fa3d3c3250fb054
+  Installing 9/16 bzip2[core,tool]:x86-windows@1.0.8#6...
+  Elapsed time to handle bzip2:x86-windows: 6.46 ms
+  bzip2:x86-windows package ABI: e653ede38fdcc0b10520b8de90f43c35a808bef700ad5a2fc7b33e13fdaa7730
+  Installing 10/16 brotli:x86-windows@1.1.0#1...
+  Elapsed time to handle brotli:x86-windows: 15.5 ms
+  brotli:x86-windows package ABI: c9f99379d4792ea5108dfe28275a8c5de6ad0978f6153986f898550d1260a8e5
+  Installing 11/16 freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3...
+  Elapsed time to handle freetype:x86-windows: 15 ms
+  freetype:x86-windows package ABI: de91818da961b044a839491ca4b9cd3fc666e92e7a1406b28a56b86ef0af9450
+  Installing 12/16 miniaudio:x86-windows@0.11.22...
+  Elapsed time to handle miniaudio:x86-windows: 10.2 ms
+  miniaudio:x86-windows package ABI: 1089b10409fc9870ca8b33faf8abb24a535a2f1204d47beee607a35b02185a4a
+  Installing 13/16 libogg:x86-windows@1.3.6...
+  Elapsed time to handle libogg:x86-windows: 6.12 ms
+  libogg:x86-windows package ABI: 4168a04b0f60fe8989b11d4ff56ba414c1b1dea679e1a16dac35c8c2601cb494
+  Installing 14/16 libvorbis:x86-windows@1.3.7#4...
+  Elapsed time to handle libvorbis:x86-windows: 8.18 ms
+  libvorbis:x86-windows package ABI: b91bc76b9b9eacf2ee5e699b973a40cb17a506bd6f12f05154f0e816a7e221c2
+  Installing 15/16 libflac[core,stack-protector]:x86-windows@1.5.0...
+  Elapsed time to handle libflac:x86-windows: 16 ms
+  libflac:x86-windows package ABI: bdb6a7d6abcd3f66975be436f5479a9f2e8adc3953f920f7ca150d850c0323d9
+  Installing 16/16 sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1...
+  Elapsed time to handle sfml:x86-windows: 36.2 ms
+  sfml:x86-windows package ABI: 6c7fea920ece258b02470d381dddf40a9465c072a168cf3f30019e5609049d71
+  Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+  Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+  Packages installed in this vcpkg installation declare the following licenses:
+  (FTL OR GPL-2.0-or-later)
+  (MIT OR CC-PDDC)
+  (Unlicense OR MIT-0)
+  BSD-3-Clause
+  MIT
+  Zlib
+  bzip2-1.0.6
+  libpng-2.0
+  The package sfml provides CMake targets:
+  
+      find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE SFML::Network SFML::Graphics SFML::Window SFML::Audio SFML::System)
+  
+      # If you want SFML to provide an implementation of main():
+      target_link_libraries(main PRIVATE SFML::Main)
+  
+  All requested installations completed successfully in: 428 ms
+  Button.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Button.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(15,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(53,15): warning C4244:         with
@@ -11,9 +111,37 @@ C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:      
 C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:             T=int
 C:\Projects\C++\BUas-Intake\WindowKiller\Button.cpp(54,15): warning C4244:         ]
   CircleCollider.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'CircleCollider.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Collision.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Collision.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Game.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Gun.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Gun.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         with
 C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,39): warning C4244:         [
@@ -33,18 +161,76 @@ C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         
 C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:             T=float
 C:\Projects\C++\BUas-Intake\WindowKiller\Gun.cpp(56,29): warning C4244:         ]
   Bar.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Bar.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   main.cpp
-C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(22,47): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(22,35): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(28,15): warning C4101: 'collision': unreferenced local variable
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,44): warning C4244: 'argument': conversion from 'const float' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,44): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,44): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,44): warning C4244:             T=unsigned int
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,44): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,32): warning C4244: 'argument': conversion from 'const float' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,32): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,32): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,32): warning C4244:             T=unsigned int
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(25,32): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\main.cpp(36,15): warning C4101: 'collision': unreferenced local variable
   Mineral.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Mineral.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Obstacle.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Obstacle.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(5,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(22,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,35): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,35): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,35): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,35): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,27): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,27): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,27): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Obstacle.cpp(32,27): warning C4244:         ]
   ObstaclePool.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'ObstaclePool.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   ObstacleSpawner.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'ObstacleSpawner.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:         with
 C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(32,73): warning C4244:         [
@@ -86,15 +272,45 @@ C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C42
 C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:             T=float
 C:\Projects\C++\BUas-Intake\WindowKiller\ObstacleSpawner.cpp(45,36): warning C4244:         ]
   Particle.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Particle.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(34,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,35): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,35): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,35): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,35): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,27): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,27): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,27): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(37,27): warning C4244:         ]
 C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(40,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(46,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,35): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,35): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,35): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,35): warning C4244:         ]
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,27): warning C4244:         with
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,27): warning C4244:         [
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,27): warning C4244:             T=float
+C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(49,27): warning C4244:         ]
 C:\Projects\C++\BUas-Intake\WindowKiller\Particle.cpp(52,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   ParticleSystem.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'ParticleSystem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:         with
 C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,86): warning C4244:         [
@@ -106,13 +322,63 @@ C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C424
 C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:             T=float
 C:\Projects\C++\BUas-Intake\WindowKiller\ParticleSystem.cpp(13,58): warning C4244:         ]
   Player.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Rigidbody.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Rigidbody.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   ScoreSystem.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'ScoreSystem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Star.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Star.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Starfield.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Starfield.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
 C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(39,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(46,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Projects\C++\BUas-Intake\WindowKiller\Starfield.cpp(48,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   UI.cpp
+C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'UI.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Projects\C++\BUas-Intake\vcpkg_installed\x86-windows\x86-windows\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
   Generating Code...
   WindowKiller.vcxproj -> C:\Projects\C++\BUas-Intake\Debug\WindowKiller.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  C:\Projects\C++\BUas-Intake\WindowKiller\..\vcpkg_installed\x86-windows\bin\sfml-audio-3.dll
+  C:\Projects\C++\BUas-Intake\WindowKiller\..\vcpkg_installed\x86-windows\bin\sfml-graphics-3.dll
+  C:\Projects\C++\BUas-Intake\WindowKiller\..\vcpkg_installed\x86-windows\bin\sfml-network-3.dll
+  C:\Projects\C++\BUas-Intake\WindowKiller\..\vcpkg_installed\x86-windows\bin\sfml-system-3.dll
+  C:\Projects\C++\BUas-Intake\WindowKiller\..\vcpkg_installed\x86-windows\bin\sfml-window-3.dll
+  5 File(s) copied

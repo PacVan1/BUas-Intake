@@ -29,20 +29,20 @@ void ObstacleSpawner::Do(list<Obstacle*>* obstacles, float deltaTime)
 		switch (side)
 		{
 		case 0:
-			obspos = Vector2f(1920 + obsTypes[rindex].GetRadius(), rand() % 1080 + 1);
-			obsvel = Vector2f(0, rand() % 1080 + 1);
+			obspos = Vector2f(2560 + obsTypes[rindex].GetRadius(), rand() % 1600 + 1);
+			obsvel = Vector2f(0, rand() % 1600 + 1);
 			break;
 		case 1: 
-			obspos = Vector2f(rand() % 1920 + 1, 1080 + obsTypes[rindex].GetRadius());
-			obsvel = Vector2f(rand() % 1920 + 1, 0);
+			obspos = Vector2f(rand() % 2560 + 1, 1600 + obsTypes[rindex].GetRadius());
+			obsvel = Vector2f(rand() % 2560 + 1, 0);
 			break;
 		case 2: 
-			obspos = Vector2f(0 - obsTypes[rindex].GetRadius(), rand() % 1080 + 1);
-			obsvel = Vector2f(1920, rand() % 1080 + 1);
+			obspos = Vector2f(0 - obsTypes[rindex].GetRadius(), rand() % 1600 + 1);
+			obsvel = Vector2f(2560, rand() % 1600 + 1);
 			break;
 		case 3: 
-			obspos = Vector2f(rand() % 1920 + 1, 0 - obsTypes[rindex].GetRadius());
-			obsvel = Vector2f(rand() % 1920 + 1, 1080);
+			obspos = Vector2f(rand() % 2560 + 1, 0 - obsTypes[rindex].GetRadius());
+			obsvel = Vector2f(rand() % 2560 + 1, 1600);
 			break;
 		}
 

@@ -11,7 +11,7 @@ Obstacle::Obstacle(Obstacle& obs, Vector2f position) :
 	dead(false)
 {
 	shape.setPosition(position); 
-	shape.setOrigin(obs.GetShape().getRadius(), obs.GetShape().getRadius());  
+	shape.setOrigin(Vector2f(obs.GetShape().getRadius(), obs.GetShape().getRadius()));
 	shape.setFillColor(Color::Transparent);  
 	shape.setOutlineColor(obs.GetShape().getOutlineColor());  
 	shape.setOutlineThickness(obs.GetShape().getOutlineThickness());
@@ -29,7 +29,7 @@ Obstacle::Obstacle(Vector2f position, Color color, int radius, float friction, i
 	dead(false)
 {
 	shape.setPosition(position);
-	shape.setOrigin(radius, radius); 
+	shape.setOrigin(Vector2f(radius, radius));
 	shape.setFillColor(Color::Transparent);
 	shape.setOutlineColor(color);
 	shape.setOutlineThickness(3);

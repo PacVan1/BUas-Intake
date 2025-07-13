@@ -34,3 +34,4 @@
 # Project specific ignores
 **/.vs/
 **/Debug/
+**/vcpkg_installed/

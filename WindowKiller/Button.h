@@ -7,7 +7,7 @@ using namespace sf;
 class Button
 {
 public: 
-	Button() {}
+	Button(Font& font) : text(font) {}
 	Button(Font& font, string text, Vector2f size, Color normalColor, Color hoverColor, int charSize, int outlineThickness); 
 
 	void SetFont(Font& font);

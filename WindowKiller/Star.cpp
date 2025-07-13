@@ -11,7 +11,7 @@ Star::Star(float y, float velocity, float radius, int brightness) :
 	velocity(velocity)
 {
 	shape.setPosition({ 0.0f, y });
-	shape.setOrigin(shape.getRadius(), shape.getRadius());
+	shape.setOrigin(Vector2f(shape.getRadius(), shape.getRadius()));
 	shape.setFillColor(Color(brightness, brightness, brightness, 255));
 }
 

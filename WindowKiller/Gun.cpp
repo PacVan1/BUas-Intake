@@ -14,9 +14,9 @@ Gun::Gun(Obstacle* owner, float bulletSpeed, float fireRate) :
 {
 	this->position = owner->GetPositionP();
 
-	barrel.setRotation(0);
+	barrel.setRotation(sf::degrees(0.0f));
 	barrel.setPosition(owner->GetPosition() + direction * (float)owner->GetCollider().GetRadius());
-	barrel.setOrigin(0.0f, barrel.getSize().y * 0.5f);
+	barrel.setOrigin(Vector2f(0.0f, barrel.getSize().y * 0.5f));
 	barrel.setFillColor(Color::Transparent);
 	barrel.setOutlineColor(owner->GetShape().getOutlineColor());
 	barrel.setOutlineThickness(owner->GetShape().getOutlineThickness());
@@ -40,7 +40,7 @@ void Gun::Reload(float deltaTime)
 
 void Gun::Fire(ParticleSystem& particleSystem, ObstaclePool& obstaclePool)
 {
-	if (canFire && Mouse::isButtonPressed(Mouse::Left))
+	if (canFire && Mouse::isButtonPressed(Mouse::Button::Left))
 	{
 		Obstacle* newProjectile = new Obstacle(projectile, barrel.getPosition() + direction * 20.0f); newProjectile->rigidbody.SetVelocity(direction * bulletSpeed); 
 		obstaclePool.playerObstacles.push_back(newProjectile);  
@@ -71,7 +71,7 @@ void Gun::Knockback()
 void Gun::Draw(RenderWindow& window)
 {
 	float barrelAngle = (atan2(direction.y, direction.x) * 180) / 3.141592f;
-	barrel.setRotation(barrelAngle);  
+	barrel.setRotation(sf::degrees(barrelAngle));  
 	barrel.setPosition(owner->GetPosition()); 
 
 	window.draw(barrel);

@@ -14,13 +14,13 @@ Bar::Bar(Vector2f position, Color color, float maxBarWidth, float barHeight, int
 	maxValue(maxValue)
 {
 	bar.setFillColor(color);
-	bar.setPosition(position.x, position.y + barOutline.getOutlineThickness());
+	bar.setPosition(Vector2f(position.x, position.y + barOutline.getOutlineThickness()));
 	bar.setSize({ maxBarWidth, barHeight });  
 	bar.setOrigin({ maxBarWidth / 2.0f, 0.0f}); 
 	barOutline.setFillColor(Color::Transparent);
 	barOutline.setOutlineColor(color);
 	barOutline.setOutlineThickness(2);
-	barOutline.setPosition(position.x, position.y + barOutline.getOutlineThickness());
+	barOutline.setPosition(Vector2f(position.x, position.y + barOutline.getOutlineThickness()));
 	barOutline.setSize({ maxBarWidth, barHeight });
 	barOutline.setOrigin({ maxBarWidth / 2.0f, 0.0f });
 

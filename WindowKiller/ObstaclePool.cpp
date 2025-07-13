@@ -7,7 +7,7 @@ bool WallCollisionDetected(Obstacle& obs, float lBoundary, float rBoundary, floa
 
 void ObstaclePool::ObstacleInteraction(float deltaTime, ParticleSystem& particleSystem, ScoreSystem& scoreSystem)
 {
-    auto wallDetected = [](Obstacle* obs) { return WallCollisionDetected(*obs, 0.0f - obs->GetRadius(), 1920 + obs->GetRadius(), 1200 + obs->GetRadius(), 0.0f - obs->GetRadius()); }; 
+    auto wallDetected = [](Obstacle* obs) { return WallCollisionDetected(*obs, 0.0f - obs->GetRadius(), 2560 + obs->GetRadius(), 1600 + obs->GetRadius(), 0.0f - obs->GetRadius()); }; 
 
     for (Obstacle* obs1 : obstacles)
     {

@@ -10,7 +10,7 @@ Starfield::Starfield(float rate) :
 	rate(rate),
 	currentTime(0.0f) {}
 
-auto Border = [](Star* star) { return star->GetX() > 1920; };
+auto Border = [](Star* star) { return star->GetX() > 2560; };
 
 ///////////////////////////////
 // Methods
@@ -36,7 +36,7 @@ void Starfield::Update(RenderWindow& window, float deltaTime)
 
 void Starfield::CreateStar(float velocity, float radius, int brightness)
 {
-	float ry = rand() % 1200 + 1;
+	float ry = rand() % 1600 + 1;
 	float rvel = rand() % int((velocity + 3) + 1 - (velocity - 3)) + (velocity - 3); 
 
 	radius *= 10; 

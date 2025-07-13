@@ -2,9 +2,9 @@
 
 Button::Button(Font& font, string text_, Vector2f size, Color normalColor, Color hoverColor, int charSize, int outlineThickness) : 
 	normalColor(normalColor),
-	hoverColor(hoverColor)
+	hoverColor(hoverColor), 
+	text(font)
 {
-	text.setFont(font); 
 	text.setString(text_);
 	text.setFillColor(normalColor);  
 	text.setCharacterSize(charSize);
@@ -30,16 +30,16 @@ void Button::SetPosition(Vector2f position)
 {
 	button.setPosition(position);
 
-	float buttonw = button.getLocalBounds().width - button.getOutlineThickness(); 
-	float buttonh = button.getLocalBounds().height - button.getOutlineThickness(); 
+	float buttonw = button.getLocalBounds().size.x - button.getOutlineThickness(); 
+	float buttonh = button.getLocalBounds().size.y - button.getOutlineThickness(); 
 	
-	float textw = text.getLocalBounds().width;  
-	float texth = text.getLocalBounds().height;  
+	float textw = text.getLocalBounds().size.x;  
+	float texth = text.getLocalBounds().size.y;  
 
 	float textx = position.x + ((buttonw - textw) / 2);
 	float texty = position.y + ((buttonh - texth) / 2); 
 
-	text.setPosition(textx, texty);
+	text.setPosition(Vector2f(textx, texty));
 }
 
 void Button::Draw(RenderWindow& window)
@@ -55,8 +55,8 @@ bool Button::isMouseOver(RenderWindow& window)
 
 	float left = button.getPosition().x;  
 	float top = button.getPosition().y;  
-	float right = left + button.getLocalBounds().width; 
-	float bottom = top + button.getLocalBounds().height;
+	float right = left + button.getLocalBounds().size.x; 
+	float bottom = top + button.getLocalBounds().size.y;
 
 	return (mouseX > left && mouseX < right && mouseY > top && mouseY < bottom);
 }
