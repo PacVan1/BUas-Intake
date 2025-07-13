@@ -18,6 +18,56 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Bar.cpp" />
+    <ClCompile Include="source\Button.cpp" />
+    <ClCompile Include="source\CircleCollider.cpp" />
+    <ClCompile Include="source\Collision.cpp" />
+    <ClCompile Include="source\Game.cpp" />
+    <ClCompile Include="source\Gun.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Mineral.cpp" />
+    <ClCompile Include="source\Obstacle.cpp" />
+    <ClCompile Include="source\ObstaclePool.cpp" />
+    <ClCompile Include="source\ObstacleSpawner.cpp" />
+    <ClCompile Include="source\Particle.cpp" />
+    <ClCompile Include="source\ParticleSystem.cpp" />
+    <ClCompile Include="source\Player.cpp" />
+    <ClCompile Include="source\Rigidbody.cpp" />
+    <ClCompile Include="source\ScoreSystem.cpp" />
+    <ClCompile Include="source\Star.cpp" />
+    <ClCompile Include="source\Starfield.cpp" />
+    <ClCompile Include="source\UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Bar.h" />
+    <ClInclude Include="source\Button.h" />
+    <ClInclude Include="source\CircleCollider.h" />
+    <ClInclude Include="source\Collision.h" />
+    <ClInclude Include="source\Crosshair.h" />
+    <ClInclude Include="source\Game.h" />
+    <ClInclude Include="source\Gun.h" />
+    <ClInclude Include="source\Mineral.h" />
+    <ClInclude Include="source\Obstacle.h" />
+    <ClInclude Include="source\ObstaclePool.h" />
+    <ClInclude Include="source\ObstacleSpawner.h" />
+    <ClInclude Include="source\Particle.h" />
+    <ClInclude Include="source\ParticleSystem.h" />
+    <ClInclude Include="source\Player.h" />
+    <ClInclude Include="source\Rigidbody.h" />
+    <ClInclude Include="source\ScoreSystem.h" />
+    <ClInclude Include="source\Star.h" />
+    <ClInclude Include="source\Starfield.h" />
+    <ClInclude Include="source\UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="source\GravityBold8.ttf" />
+    <Font Include="source\GravityRegular5.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source\GravityBold8.txt" />
+    <Text Include="source\GravityRegular5.txt" />
+  </ItemGroup>
   <PropertyGroup>
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
     <VcpkgInstallationRoot>$(ProjectDir)vcpkg_installed\</VcpkgInstallationRoot>
@@ -25,19 +75,20 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
-    <TargetName>WindowKiller</TargetName>
+    <TargetName>Aysteroids</TargetName>
+    <IntDir>$(SolutionDir)Intermediate\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
-    <TargetName>WindowKiller</TargetName>
+    <TargetName>Aysteroids</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
-    <TargetName>WindowKiller</TargetName>
+    <TargetName>Aysteroids</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
-    <TargetName>WindowKiller</TargetName>
+    <TargetName>Aysteroids</TargetName>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -110,7 +161,7 @@
       </AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y /D "$(ProjectDir)..\vcpkg_installed\x86-windows\bin\sfml-*.dll" "$(OutDir)"
+      <Command>xcopy /Y /D "$(ProjectDir)vcpkg_installed\x86-windows\bin\sfml-*.dll" "$(OutDir)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -179,47 +230,6 @@
       </AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="CircleCollider.cpp" />
-    <ClCompile Include="Collision.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Gun.cpp" />
-    <ClCompile Include="Bar.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Mineral.cpp" />
-    <ClCompile Include="Obstacle.cpp" />
-    <ClCompile Include="ObstaclePool.cpp" />
-    <ClCompile Include="ObstacleSpawner.cpp" />
-    <ClCompile Include="Particle.cpp" />
-    <ClCompile Include="ParticleSystem.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Rigidbody.cpp" />
-    <ClCompile Include="ScoreSystem.cpp" />
-    <ClCompile Include="Star.cpp" />
-    <ClCompile Include="Starfield.cpp" />
-    <ClCompile Include="UI.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="CircleCollider.h" />
-    <ClInclude Include="Collision.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Gun.h" />
-    <ClInclude Include="Bar.h" />
-    <ClInclude Include="Mineral.h" />
-    <ClInclude Include="Obstacle.h" />
-    <ClInclude Include="ObstaclePool.h" />
-    <ClInclude Include="ObstacleSpawner.h" />
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="ParticleSystem.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Rigidbody.h" />
-    <ClInclude Include="ScoreSystem.h" />
-    <ClInclude Include="Star.h" />
-    <ClInclude Include="Starfield.h" />
-    <ClInclude Include="UI.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

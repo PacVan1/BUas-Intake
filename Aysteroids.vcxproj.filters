@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{800c4161-fdd5-46ae-aaca-d3a0b0f7a863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Bar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Button.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CircleCollider.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gun.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mineral.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Obstacle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObstaclePool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObstacleSpawner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Particle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rigidbody.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScoreSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Star.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Starfield.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Bar.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Button.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CircleCollider.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crosshair.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gun.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mineral.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Obstacle.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObstaclePool.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObstacleSpawner.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Particle.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleSystem.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Rigidbody.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScoreSystem.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Star.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Starfield.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UI.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="source\GravityBold8.ttf">
+      <Filter>Source</Filter>
+    </Font>
+    <Font Include="source\GravityRegular5.ttf">
+      <Filter>Source</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source\GravityBold8.txt">
+      <Filter>Source</Filter>
+    </Text>
+    <Text Include="source\GravityRegular5.txt">
+      <Filter>Source</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
