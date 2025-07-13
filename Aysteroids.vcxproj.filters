@@ -123,20 +123,4 @@
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Font Include="source\GravityBold8.ttf">
-      <Filter>Source</Filter>
-    </Font>
-    <Font Include="source\GravityRegular5.ttf">
-      <Filter>Source</Filter>
-    </Font>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="source\GravityBold8.txt">
-      <Filter>Source</Filter>
-    </Text>
-    <Text Include="source\GravityRegular5.txt">
-      <Filter>Source</Filter>
-    </Text>
-  </ItemGroup>
 </Project>

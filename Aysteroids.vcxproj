@@ -60,14 +60,6 @@
     <ClInclude Include="source\Starfield.h" />
     <ClInclude Include="source\UI.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Font Include="source\GravityBold8.ttf" />
-    <Font Include="source\GravityRegular5.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="source\GravityBold8.txt" />
-    <Text Include="source\GravityRegular5.txt" />
-  </ItemGroup>
   <PropertyGroup>
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
     <VcpkgInstallationRoot>$(ProjectDir)vcpkg_installed\</VcpkgInstallationRoot>
