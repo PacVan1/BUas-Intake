@@ -1,11 +1,12 @@
 # Aysteroids
 
 ## Description
-An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (numerus-fixus).  
+An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (numerus-fixus).
 **Result**: I got in!
 
 ## Features
 - 2D elastic collisions based on [this article](https://www.vobarian.com/collisions/2dcollisions2.pdf)
+- Fixed 2560x1600px resolution, because I did not have time for dynamic scaling
 
 ## Installation and Setup
 The project uses **vcpkg manifests** to install dependencies and include source code. Therefore to build the project, [vcpkg](https://github.com/microsoft/vcpkg) is required.<br><br>
