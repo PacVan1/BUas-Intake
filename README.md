@@ -42,3 +42,4 @@ I wanted to keep the repository as vanilla as possible, but there were some majo
 - Fixed the game on 2560x1600px resolution
 - Fixed the game starting in game over state
 - Fixed the player speed-up at the first run
+- Changed folder names and moved source files
