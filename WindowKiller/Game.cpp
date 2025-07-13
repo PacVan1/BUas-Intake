@@ -7,8 +7,7 @@ Game::Game() :
 	starfield(0.1f),
 	obstacleSpawner(0.2f)
 {
-	player.SetPosition({ 250.0f, 250.0f });
-	obstaclePool.playerObstacles.push_back(&player);
+	player.SetPosition({ 1280.0f, 800.0f });
 }
 
 void Game::Update(RenderWindow& window, float deltaTime) 
@@ -25,7 +24,7 @@ void Game::Update(RenderWindow& window, float deltaTime)
 		break;
 	case 1: 
 		obstacleSpawner.Do(&obstaclePool.obstacles, deltaTime);  
-		player.Update(particleSystem, obstaclePool, window, deltaTime);  
+		player.UpdateGun(particleSystem, obstaclePool, window, deltaTime);  
 		obstaclePool.ObstacleInteraction(deltaTime, particleSystem, scoreSystem); 
 
 		if (player.isDead()) 
@@ -38,7 +37,7 @@ void Game::Update(RenderWindow& window, float deltaTime)
 		break;
 	case 3: // reset state 
 		player.SetHealth(player.GetMaxHealth()); 
-		player.SetPosition({ 960, 600 }); 
+		player.SetPosition({ 1280.0f, 800.0f });
 		player.SetDead(); 
 		obstaclePool.playerObstacles.push_back(&player); 
 		scoreSystem.SetHighscore(scoreSystem.GetScore()); 

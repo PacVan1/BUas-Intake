@@ -15,7 +15,7 @@ public:
 
 	void Move();
 
-	void Update(ParticleSystem& particleSystem, ObstaclePool& obstaclePool, RenderWindow& window, float deltaTime);
+	void UpdateGun(ParticleSystem& particleSystem, ObstaclePool& obstaclePool, RenderWindow& window, float deltaTime);
 	void Draw(RenderWindow& window); 
 
 private:

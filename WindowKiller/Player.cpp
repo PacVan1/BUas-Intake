@@ -16,7 +16,7 @@ Player::Player(Vector2f position, Color color, int radius, bool friction, int da
 	gun(this, 5.0f, 0.2f),
     healthbar(position + Vector2f(0.0f, 14.0f), Color::Red, 20.0f, 6.0f, &this->health, &maxHealth) {}
 
-void Player::Update(ParticleSystem& particleSystem, ObstaclePool& obstaclePool, RenderWindow& window, float deltaTime)
+void Player::UpdateGun(ParticleSystem& particleSystem, ObstaclePool& obstaclePool, RenderWindow& window, float deltaTime)
 {
     gun.Fire(particleSystem, obstaclePool);
     gun.Update(window, deltaTime); 
@@ -53,9 +53,9 @@ void Player::Move()
         position.x = GetRadius();
         rigidbody.velocity.x = -rigidbody.velocity.x;
     }
-    if (position.x > 1920 - GetRadius()) 
+    if (position.x > 2560 - GetRadius()) 
     {
-        position.x = 1920 - GetRadius(); 
+        position.x = 2560 - GetRadius();
         rigidbody.velocity.x = -rigidbody.velocity.x; 
     }
     if (position.y < GetRadius()) 
@@ -63,9 +63,9 @@ void Player::Move()
         position.y = GetRadius(); 
         rigidbody.velocity.y = -rigidbody.velocity.y; 
     } 
-    if (position.y > 1080 - GetRadius())
+    if (position.y > 1600 - GetRadius())
     {
-        position.y = 1080 - GetRadius(); 
+        position.y = 1600 - GetRadius();
         rigidbody.velocity.y = -rigidbody.velocity.y; 
     }
 
