@@ -1,7 +1,7 @@
 #include "Game.h"
 
 Game::Game() : 
-	state(2),
+	state(0),
 	scoreSystem(&ui),
 	ui(scoreSystem.GetScore(), &state),
 	starfield(0.1f),
