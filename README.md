@@ -1,8 +1,11 @@
 # Aysteroids
 
 ## Description
-An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (numerus-fixus).
+An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (numerus-fixus).<br>
 **Result**: I got in!
+
+![Opening](examples/opening.png)
+![Gameplay](examples/gameplay.png)
 
 ## Features
 - 2D elastic collisions based on [this article](https://www.vobarian.com/collisions/2dcollisions2.pdf)
@@ -10,7 +13,6 @@ An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (
 
 ## Installation and Setup
 The project uses **vcpkg manifests** to install dependencies and include source code. Therefore to build the project, [vcpkg](https://github.com/microsoft/vcpkg) is required.<br><br>
-
 In the root folder of the project (next to vcpkg.json):
 ```bash
 vcpkg install --triplet x86-windows
@@ -37,3 +39,6 @@ The project depends on [SFML](https://github.com/SFML/SFML), a Simple and Fast M
 I wanted to keep the repository as vanilla as possible, but there were some major bugs/disturbances that had to be fixed:
 - Added vcpkg manifests to not bloat the repository with dependencies
 - Added an asset folder (for the fonts) to remove the build folders
+- Fixed the game on 2560x1600px resolution
+- Fixed the game starting in game over state
+- Fixed the player speed-up at the first run
