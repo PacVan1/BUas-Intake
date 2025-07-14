@@ -7,6 +7,15 @@ An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (
 ![Opening](examples/opening.png)
 ![Gameplay](examples/gameplay.png)
 
+# What I Learned
+This is my first videogame written in C++. I learned many things in a short time:
+- Manually handling dependencies (static and dynamic) through project configurations
+- A simple game loop (when to update input, update objects, render objects, etc)
+- A design pattern called "object pool" to reuse already allocated objects
+- Collision detection and resolution
+- Pointers and references
+- What the difference is between a list and vector and when to use them
+
 ## Features
 - 2D elastic collisions based on [this article](https://www.vobarian.com/collisions/2dcollisions2.pdf)
 - Fixed 2560x1600px resolution, because I did not have time for dynamic scaling
