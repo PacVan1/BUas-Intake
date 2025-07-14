@@ -7,7 +7,7 @@ An asteroids-like game made in C++ and SFML for the BUas CMGT intake procedure (
 ![Opening](examples/opening.png)
 ![Gameplay](examples/gameplay.png)
 
-# What I Learned
+## What I Learned
 This is my first videogame written in C++. I learned many things in a short time:
 - Manually handling dependencies (static and dynamic) through project configurations
 - A simple game loop (when to update input, update objects, render objects, etc)
