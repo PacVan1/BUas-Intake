@@ -30,6 +30,7 @@ The project uses **vcpkg manifests** to install dependencies and include source 
 In the root folder of the project (next to vcpkg.json):
 ```bash
 vcpkg install --triplet x86-windows
+vcpkg integrate install
 ```
 
 ## Controls
