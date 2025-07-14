@@ -16,6 +16,11 @@ This is my first videogame written in C++. I learned many things in a short time
 - Pointers and references
 - What the difference is between a list and vector and when to use them
 
+In order to do this, I used a few resources:
+- [Beginning C++ Through Game Programming, 4th ed](https://books.google.nl/books/about/Beginning_C++_Through_Game_Programming_4.html?id=pd0OBAAAQBAJ&redir_esc=y#:~:text=In%20the%20new%20fourth%20edition%20of%20this%20popular,of%20the%20book%20draws%20together%20everything%20you%E2%80%99ve%20learned.)
+- [C++ Fast Track for Games Programming](https://www.3dgep.com/cpp-fast-track-1-getting-started/) (the full series)
+- [SFML 2.4 For Beginners](https://www.youtube.com/watch?v=axIgxBQVBg0&list=PL21OsoBLPpMOO6zyVlxZ4S4hwkY_SLRW9) (the full series)
+
 ## Features
 - 2D elastic collisions based on [this article](https://www.vobarian.com/collisions/2dcollisions2.pdf)
 - Fixed 2560x1600px resolution, because I did not have time for dynamic scaling
